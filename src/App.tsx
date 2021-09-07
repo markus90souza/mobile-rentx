@@ -17,6 +17,7 @@ import {
 import { Home } from './Screens/Home';
 import { ThemeProvider } from 'styled-components';
 import Theme from './Theme/Theme';
+import { CarDetails } from './Screens/CarDetails';
 
 const App = () => {
   const [fontsLoaded] = useFonts({
@@ -38,7 +39,7 @@ const App = () => {
         backgroundColor="transparent"
         translucent
       />
-      <Home />
+      <CarDetails />
     </ThemeProvider>
   );
 };

@@ -4,7 +4,7 @@ export default {
     BgSecondary: '#FFFFFF',
     Header: '#1b1b1F',
     TextPrimary: '#7A7A80',
-    TexTSecondary: '#AEAEB3',
+    TextSecondary: '#AEAEB3',
     Line: '#EBEBF0',
     MainPrimary: '#DC1637',
     MainSecondary: '#FDEDEF',
