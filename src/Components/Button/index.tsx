@@ -10,7 +10,7 @@ type Props = {
 
 function Button({ title, color, ...rest }: Props) {
   return (
-    <Container {...rest}>
+    <Container color={color} {...rest}>
       <Title>{title}</Title>
     </Container>
   );

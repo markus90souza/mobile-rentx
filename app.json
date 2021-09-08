@@ -3,9 +3,7 @@
     "name": "rentXApp",
     "slug": "rentXApp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   },
   "name": "rentXApp"
 }

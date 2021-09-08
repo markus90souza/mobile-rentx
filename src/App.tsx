@@ -1,5 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'react-native';
+import { ThemeProvider } from 'styled-components';
+
 import AppLoading from 'expo-app-loading';
 
 import {
@@ -14,10 +16,12 @@ import {
   Archivo_600SemiBold,
 } from '@expo-google-fonts/archivo';
 
-import { Home } from './Screens/Home';
-import { ThemeProvider } from 'styled-components';
 import Theme from './Theme/Theme';
+
+import { Home } from './Screens/Home';
 import { CarDetails } from './Screens/CarDetails';
+import { Schedduling } from './Screens/Schedduling';
+import { ScheddulingDetails } from './Screens/ScheddulingDetails';
 
 const App = () => {
   const [fontsLoaded] = useFonts({
@@ -39,7 +43,7 @@ const App = () => {
         backgroundColor="transparent"
         translucent
       />
-      <CarDetails />
+      <ScheddulingDetails />
     </ThemeProvider>
   );
 };
